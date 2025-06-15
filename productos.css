@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .encabezado {
+    width: 98%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3a2d28;
+    padding: 10px 20px;
+    
+  }
+  
+  .logo-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  
+  .boton-inicio {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .seccion-crepas,{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ccc;
+    padding: 30px;
+    margin: 20px;
+    width: 1245px;  
+    height: 400px;
+  }
+  .seccion-frappes{
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 20px;
+    width: 1260px;  
+    height: 400px;
+
+
+
+  }
+  .cambioimagen{
+    border: 2px solid white;
+    width: 1300px;
+    height: 600px;
+    position: relative;
+   background-image: url("imagencrepas.jpg");
+    }
+    
+  
+  
+  .logo, .nombre, .frappes {
+    font-size: 20px;
+  }
+  .cambioimagen2{
+    border: 2px solid white;
+    width: 1300px;
+    height: 600px;
+    position: relative;
+   background-image: url("imagenfrapes.jpg");
+    }
